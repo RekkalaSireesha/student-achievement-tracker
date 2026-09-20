@@ -12,8 +12,8 @@
 
 <p>
   <img src="https://img.shields.io/badge/SharedPreferences-Local%20Storage-FF9800?style=for-the-badge">
-  <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-222222?logo=github&style=for-the-badge">
   <img src="https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF?logo=githubactions&style=for-the-badge">
+  <img src="https://img.shields.io/badge/GitHub%20Pages-Deployed-222222?logo=github&style=for-the-badge">
 </p>
 
 <br>
@@ -30,19 +30,21 @@
 
 ---
 
-## 📖 About the Project
+# 📖 About the Project
 
-**Student Achievement Tracker** is a Flutter-based application designed to help students manage and organize their academic and extracurricular achievements in one place.
+**Student Achievement Tracker** is a Flutter-based application designed to help students organize and manage their academic and extracurricular achievements in one place.
 
-Students participate in various activities throughout their academic journey, including certifications, coding competitions, hackathons, academic activities, sports, and cultural events. These achievements are often stored in different documents, applications, or folders.
+Students participate in many activities throughout their college journey, including academic events, coding competitions, hackathons, certifications, sports, and cultural activities.
 
-This application provides a simple and organized way to maintain achievement records digitally.
+These achievements are often stored in different documents, folders, or applications.
+
+The Student Achievement Tracker provides a simple digital solution where students can maintain their achievement records, search for achievements, filter them by category, edit existing records, delete records, and view complete achievement details.
 
 ---
 
-## 🎯 Problem Statement
+# 🎯 Problem Statement
 
-Students collect many achievements during college, such as:
+Students collect many achievements throughout their academic journey, such as:
 
 - 🎓 Academic awards
 - 💻 Coding achievements
@@ -51,31 +53,37 @@ Students collect many achievements during college, such as:
 - 🏅 Sports achievements
 - 🎭 Cultural activities
 
-However, these records can become difficult to organize when they are stored across different locations.
+However, these records may be scattered across different locations.
 
-The Student Achievement Tracker provides a centralized application for recording and managing these achievements.
+This can make it difficult to:
+
+- Maintain achievements in one place
+- Search for a particular achievement
+- Update achievement information
+- Organize achievements by category
+- Keep a complete record of achievements
 
 ---
 
-## 💡 Solution
+# 💡 Solution
 
-The application allows students to maintain their achievements through a simple interface.
+The application provides a centralized platform for maintaining student achievements.
 
-Users can:
+The basic workflow is:
 
 ```text
-👤 Create Student Profile
-          ↓
-🏆 Add Achievements
-          ↓
-🔍 Search Achievements
-          ↓
-🏷️ Filter by Category
-          ↓
-👀 View Achievement Details
-          ↓
-✏️ Edit Achievements
-          ↓
-🗑️ Delete Achievements
-          ↓
-💾 Store Data Locally
+👤 Student Profile
+        ↓
+🏆 Add Achievement
+        ↓
+🔍 Search Achievement
+        ↓
+🏷️ Filter Achievement
+        ↓
+👀 View Details
+        ↓
+✏️ Edit Achievement
+        ↓
+🗑️ Delete Achievement
+        ↓
+💾 Save Locally
